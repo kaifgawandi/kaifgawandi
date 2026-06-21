@@ -1,4 +1,3 @@
-cat > /mnt/user-data/outputs/PROFILE_README.md << 'ENDOFFILE'
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Mohd+Kaif+Gawandi+%F0%9F%91%8B;Aspiring+AI+Product+Manager;Builder+of+SESKO+AI+%E2%80%94+Sovereign+AI+Agent;I+Ship%2C+Measure%2C+and+Decide+%F0%9F%9A%80" alt="Typing SVG" />
 </h1>
@@ -140,6 +139,3 @@ SESKO AI Stack
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=80&section=footer" />
 </p>
-ENDOFFILE
-echo "Done"
-wc -l /mnt/user-data/outputs/PROFILE_README.md
