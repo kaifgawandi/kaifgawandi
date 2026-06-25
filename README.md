@@ -77,6 +77,11 @@ These aren't slogans — each one maps to a real decision I made on a real proje
 <td>SESKO AI roadmap</td>
 <td>Validated a single local LLM wrapper before adding OCR, then B2B intelligence, then the predictive engine — each layer earned only after the last one proved value.</td>
 </tr>
+<tr>
+<td><b>Build for real users, not hypothetical ones</b></td>
+<td>Real Pophran C.F. App</td>
+<td>Built a full sports analytics platform for my actual football club — real users, real feedback, real iterations from V1 → V3 in one sprint.</td>
+</tr>
 </table>
 
 ---
@@ -118,6 +123,50 @@ SESKO AI — Hybrid Sovereign Architecture
 ```
 
 **Status:** Core agent live · OCR module live · Predictive engine in active development
+
+---
+
+## ⚽ Case Study — Real Pophran C.F. App
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔴 Problem
+My football club had no way to track player performance, compare stats across match types, or give players structured feedback after each game.
+
+</td>
+<td width="33%" valign="top">
+
+### 🟡 Bet
+Build a full-stack sports analytics platform — not a spreadsheet, a real app — with role-based access, a live leaderboard, and AI coaching feedback.
+
+</td>
+<td width="33%" valign="top">
+
+### 🟢 What Shipped
+V1 → V2 → V3 in one sprint. Each version fixed real pain points raised by actual users (my teammates).
+
+</td>
+</tr>
+</table>
+
+```
+Real Pophran C.F. — Sports Analytics Platform (V3)
+│
+├── 🔐 Auth              JWT tokens + pbkdf2_sha256 password hashing
+├── ⚡ Backend           FastAPI (Python) + SQLite
+├── 📊 Player Analytics  Live Goal, Assist & Rating charts (Chart.js)
+├── 🃏 Identity Card     FIFA-style player card with position, age, foot, bio
+├── 🤖 AI Coach Matrix   Claude API — tactical feedback after every match log
+├── 🏆 Leaderboard       Top Scorer · Top Assister · Best Rated · Most Improved
+├── 🛡️  Manager Portal    Approve stats · assign ratings · points multiplier system
+└── 🏟️  Team Center       Squad-wide goals, assists, avg rating & Club MVP
+```
+
+**Points System:** `Practice 0.5×` · `League 1.0×` · `Main Match 2.0×`
+
+**Status:** Live & in active use by the squad · [View Repo →](https://github.com/kaifgawandi/real-pophran-cf)
 
 ---
 
@@ -163,7 +212,12 @@ SESKO AI — Hybrid Sovereign Architecture
 <td>Python, FastAPI, Llama 3.2</td>
 </tr>
 <tr>
-<td>⚽ <a href="https://github.com/kaifgawandi/World-Cup-2022-Dashboard">FIFA World Cup 2022 Dashboard</a></td>
+<td>⚽ <a href="https://github.com/kaifgawandi/real-pophran-cf">Real Pophran C.F. App</a></td>
+<td>Built for real users, iterated V1→V3 based on actual feedback, added AI coaching</td>
+<td>Python, FastAPI, SQLite, JWT, Claude API</td>
+</tr>
+<tr>
+<td>📊 <a href="https://github.com/kaifgawandi/World-Cup-2022-Dashboard">FIFA World Cup 2022 Dashboard</a></td>
 <td>Turns 64 matches of raw data into a 4-page decision-ready narrative</td>
 <td>Power BI, DAX</td>
 </tr>
@@ -214,7 +268,7 @@ SESKO AI — Hybrid Sovereign Architecture
 
 **⚽ Captain & Manager — REAL POPHRAN C.F.**
 <br/>
-Run logistics, match analysis, and player auctions for a real club, including the RPCF Sunday League Season 2. Coordinating people and prioritizing under a deadline — same muscle as product management.
+Run logistics, match analysis, and player auctions for a real club including the RPCF Sunday League Season 2. Built a full sports analytics platform to manage it. Coordinating people and prioritizing under a deadline — same muscle as product management.
 
 </td>
 <td width="50%" valign="top">
